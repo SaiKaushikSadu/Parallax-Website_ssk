@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0%;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;/*em-->2*16 i.e 2 times font size */
+    color: white;
+}
+
+.pimg1{
+    background-image: url(./parallax1.JPG);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(./parallax2.JPG);
+    min-height: 510px;
+}
+.pimg3{
+    background-image: url(./parallax3.JPG);
+    min-height: 510px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3{
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.ptext{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    padding: 5px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+
+.section_para1{
+    padding: 20px 50px;
+    color: black;
+    text-align: center;
+    line-height:30px;
+}
+
+.ptext1{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    padding: 5px;
+    /* background-color: black; */
+    text-align: center;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+
+.section_para2{
+    padding: 20px 50px;
+    background-color:black;
+    color: whitesmoke;
+    text-align: center;
+    line-height:30px;
+}
+
+.ptext2{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    padding: 5px;
+    /* background-color: black; */
+    text-align: center;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+
+.section_para3{
+    padding: 20px 50px;
+    background-color :white;
+    color:black;
+    text-align: center;
+    line-height:30px;
+}
+
+.ptext2{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    padding: 5px;
+    /* background-color: black; */
+    text-align: center;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
